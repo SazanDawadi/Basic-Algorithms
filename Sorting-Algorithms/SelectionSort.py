@@ -4,7 +4,7 @@ def selectionSort(arr):
     for i in range(len(arr)):
         min = arr[i]
         loc = 1
-        nextElement = i+1 #point to succesive element of index i
+        nextElement = i+1 #points to succesive element of index i
         for j in range(nextElement,len(arr)):
             if(arr[j] < min):
                 min = arr[j]
